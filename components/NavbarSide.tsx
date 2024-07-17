@@ -23,13 +23,6 @@ export default function NavbarSide() {
             >
               Demo
             </Link>
-            <Link
-              href={"https://www.github.com"}
-              target="_blank"
-              className="text-foreground font-medium text-sm inline-flex justify-start"
-            >
-              Code
-            </Link>
           </SheetDescription>
         </SheetHeader>
       </SheetContent>

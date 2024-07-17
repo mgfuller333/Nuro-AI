@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nuro — AI ChatBot",
+  title: "2E App — AI ChatBot",
   description: "An SaaS website showcasing OpenAI",
   icons: {
     icon: "/nuro-logo.png",

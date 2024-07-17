@@ -19,7 +19,7 @@ export default function DownloadPrompt() {
         >
           <ComponentBooleanIcon className="h-10 w-10 text-foreground" />
           <h3 className="font-medium text-2xl md:text-4xl text-foreground text-center max-w-xl">
-            Start your creative endeavours with Nuro today.
+            Start your creative endeavours with 2E App today.
           </h3>
           <div className="flex flex-col items-center gap-x-2 gap-y-8 mt-5">
             <Link href={"/chat"}>

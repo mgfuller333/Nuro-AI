@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="flex gap-x-6 text-foreground/60">
             <TwitterLogoIcon />
             <InstagramLogoIcon />
-            <GitHubLogoIcon />
+
             <LinkedInLogoIcon />
           </div>
         </div>

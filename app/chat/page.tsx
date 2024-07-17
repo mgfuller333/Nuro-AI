@@ -4,18 +4,19 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ArrowRightIcon, ComponentBooleanIcon } from "@radix-ui/react-icons";
 import { useChat } from "ai/react";
-
+import ReactMarkdown from "react-markdown";
+import "./ChatBot.css"; // Import the CSS
 export default function ChatBot() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
   return (
     <section className="pt-12 pb-32">
       <div className="max-w-3xl m-auto text-left pb-12 px-4">
         <h1 className="font-bold text-2xl md:text-4xl">
-          Start your conversation with Nuro.
+          Start your conversation with 2E App.
         </h1>
         <p className="font-medium text-sm md:text-base text-foreground/60 max-w-lg pt-6">
-          With Nuro, you can enjoy smart, friendly, and convenient communication
-          anytime, anywhere.
+          With 2E App, you can enjoy smart, friendly, and convenient
+          communication anytime, anywhere.
         </p>
       </div>
       <div className="border-t border-border/40 bg-foreground/10">
@@ -37,7 +38,9 @@ export default function ChatBot() {
             {message.role === "assistant" && (
               <ComponentBooleanIcon className="min-w-[1.4rem] min-h-[1.4rem]" />
             )}
-            <span className="ml-3">{message.content}</span>
+            <div className="ml-3 markdown-body">
+              <ReactMarkdown>{message.content}</ReactMarkdown>
+            </div>
           </div>
         </div>
       ))}

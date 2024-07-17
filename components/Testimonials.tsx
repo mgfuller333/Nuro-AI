@@ -38,7 +38,7 @@ export default function Testimonials() {
           viewport={{ once: true }}
         >
           <h2 className="font-medium text-2xl md:text-4xl text-center max-w-3xl self-center">
-            Nuro lets people move faster, save time and create higher quality
+            2E App lets people move faster, save time and create higher quality
             work.
           </h2>
         </motion.div>

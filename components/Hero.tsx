@@ -42,8 +42,8 @@ export default function Hero() {
           viewport={{ once: true }}
         >
           <p className="font-normal text-sm md:text-base text-foreground/60 text-center max-w-lg">
-            Nuro allows you to have conversations with our ChatBot. Simply ask a
-            question and watch the magic happen.
+            2E App allows you to have conversations with our ChatBot. Simply ask
+            a question and watch the magic happen.
           </p>
         </motion.div>
         <motion.div
@@ -58,32 +58,13 @@ export default function Hero() {
               Start For Free <ArrowRightIcon />
             </Button>
           </Link>
-          <Link href={"https://github.com/TheHamzaDev/Nuro-AI"} target="_blank">
-            <Button
-              className="flex gap-x-2 shadow-md w-48 sm:w-auto"
-              size="lg"
-              variant="secondary"
-            >
-              <GitHubLogoIcon /> GitHub
-            </Button>
-          </Link>
         </motion.div>
         <motion.div
           initial={{ y: "40px", opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.4 }}
           viewport={{ once: true }}
-        >
-          <p className="text-xs text-center -mt-3 text-foreground/60">
-            Nuro works wherever you are.{" "}
-            <Link
-              href={"/chat"}
-              className="text-foreground border-b border-foreground border-dashed"
-            >
-              Try our demo.
-            </Link>
-          </p>
-        </motion.div>
+        ></motion.div>
       </section>
       <BlurredClipPath
         paddingBottom="pb-64"

@@ -4,21 +4,21 @@ export const TESTIMONIALS = [
     name: "John Doe",
     occupation: "Creative Writer • Freelance",
     review:
-      '"I’ve had the pleasure of using Nuro, and what truly stood out was its natural conversational flow. Unlike other chatbots, Nuro seamlessly adapts to different contexts, making interactions feel like genuine conversations. It’s like having a knowledgeable friend on standby."',
+      '"I’ve had the pleasure of using 2E App, and what truly stood out was its natural conversational flow. Unlike other chatbots, 2E App seamlessly adapts to different contexts, making interactions feel like genuine conversations. It’s like having a knowledgeable friend on standby."',
   },
   {
     imgSrc: "/abbysmith.jpg",
     name: "Abby Smith",
     occupation: "Lead Project Manager • Google",
     review:
-      '"Nuro seamlessly adjusts to various contexts, making interactions feel like genuine conversations. It effortlessly tailors its responses, ensuring a personalized experience for users."',
+      '"2E App seamlessly adjusts to various contexts, making interactions feel like genuine conversations. It effortlessly tailors its responses, ensuring a personalized experience for users."',
   },
   {
     imgSrc: "/craignelson.jpg",
     name: "Craig Nelson",
     occupation: "Sales Executive • Apple Inc.",
     review:
-      '"As a user of Nuro, I’ve experienced its remarkable ability across diverse contexts, imbuing interactions with an authentic conversational quality. Its responses flow effortlessly, customizing each engagement to deliver a uniquely personalized user experience."',
+      '"As a user of 2E App, I’ve experienced its remarkable ability across diverse contexts, imbuing interactions with an authentic conversational quality. Its responses flow effortlessly, customizing each engagement to deliver a uniquely personalized user experience."',
   },
 ];
 
@@ -61,7 +61,7 @@ export const FOOTER_LINKS = [
   {
     title: "Product",
     links: [
-      { name: "Using Nuro" },
+      { name: "Using 2E App" },
       { name: "Blog" },
       { name: "Learn" },
       { name: "Pricing" },
@@ -94,6 +94,6 @@ export const FOOTER_LINKS = [
   },
   {
     title: "Contact",
-    links: [{ name: "support@nuro.com" }, { name: "(+44) 0191 4242 4242" }],
+    links: [{ name: "support@2EApp.com" }, { name: "(+44) 0191 4242 4242" }],
   },
 ];
