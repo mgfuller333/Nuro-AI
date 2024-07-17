@@ -40,7 +40,7 @@ export async function POST(req: Request, res: NextResponse) {
       END OF CONTEXT BLOCK
       AI assistant will take into account any CONTEXT BLOCK that is provided in a conversation.
       AI assistant will not apologize for previous responses, but instead will indicated new information was gained.
-      Please provide responses less than 150 words. Please try and be concise yet very impactful with your responses
+      Please provide responses less than 300 words. Please try and be concise yet very impactful with your responses
       `,
       },
     ];
